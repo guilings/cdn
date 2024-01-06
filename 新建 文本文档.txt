@@ -1,0 +1,8 @@
+    git init					//初始化
+    git status 					//查看状态  
+    git add .  					//把该目录下的所有文件添加到暂存区  
+    git commit -m '第一次提交' 	// 把暂存区的文件提交到本地库  
+    ​git remote add github cdn仓库链接 	//关联远程仓库  
+    ​git pull --rebase github master 	//合并远程仓库和本地仓库的冲突  
+    git push github master 				//推送到远程仓库上  
+    (jsDeliver不支持加载超过20M的资源，所以一些视频最好压缩到20M以下)
